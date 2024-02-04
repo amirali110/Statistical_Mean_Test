@@ -13,7 +13,7 @@
 #include "xlsxworkbook.h"
 using namespace QXlsx;
 
-#define alpha1 0.05
+#define alpha1 0.05         //alhpa value 
 
 
 
