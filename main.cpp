@@ -30,14 +30,14 @@ void twoSampleTTest(const std::vector<double>& sample1, const std::vector<double
     }
     mean2 /= sample2.size();
 
-   // محاصبه واریانس نمونه اول
+   // محاسبه واریانس نمونه اول
     double variance1 = 0, variance2 = 0;
     for (double value : sample1) {
         variance1 += pow(value - mean1, 2);
     }
     variance1 /= (sample1.size() - 1);
 
-     // محاصبه واریانس نمونه دوم
+     // محسببه واریانس نمونه دوم
     for (double value : sample2) {
         variance2 += pow(value - mean2, 2);
     }
@@ -92,8 +92,7 @@ int main() {
 
 
   for(int i=2;i<45;i++){
-
-
+      
       Soc1.push_back(ReadExcel.cellAt(i,1)->readValue().toInt());
 }
 
